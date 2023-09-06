@@ -1,7 +1,7 @@
 {
   "name": "pioneer",
   "version": "1.0.0",
-  "homepage": "https://github.com/NikiforovRoman/Pioneer.git",
+  "homepage": "https://github.com/NikiforovRoman/-------Pioneer.git",
   "description": "Проект для тренировки сборки Gulp и препроцессоров",
   "main": "index.js",
   "scripts": {
