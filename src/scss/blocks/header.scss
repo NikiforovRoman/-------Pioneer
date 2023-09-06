@@ -1,0 +1,33 @@
+.header {
+    &__wrapper {
+        max-width: 1180px;
+        margin: 32px auto 80px;
+    }
+    &__group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 36px;
+        border-bottom: 1px solid $date-color;
+    }
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    &__mail {
+        text-align: right;
+    }
+    &__tel {
+        text-align: right;
+    }
+    &__link {
+        color: $accent-color;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28.48px;
+        text-decoration: underline;
+    }
+}

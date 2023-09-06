@@ -1,0 +1,15 @@
+/* Global*/
+@import "./global/variables.scss";
+@import "./global/global.scss";
+@import "./global/fonts.scss";
+
+/* Blocks */
+
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/about.scss";
+@import "./blocks/produtcs.scss";
+@import "./blocks/companies.scss";
+@import "./blocks/news.scss";
+@import "./blocks/footer.scss";

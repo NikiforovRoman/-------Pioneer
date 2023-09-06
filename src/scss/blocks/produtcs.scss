@@ -1,0 +1,50 @@
+.products {
+    &__wrapper {
+        margin-bottom: 80px;
+    }
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px 20px;
+    }
+    &__item {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 24px;
+        display: flex;
+        height: 435px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: $item-color;
+    }
+    &__name {
+        font-size: 28px;
+        line-height: 33.6px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    &__link {
+        background: none;
+        border: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: $accent-color;
+        line-height: 24px;
+        position: relative;
+        &:hover {
+            color: darken($color: $accent-color, $amount: 20%);
+        }
+        &::after {
+            content: url("../img/dist/arrow-icon.svg");
+            width: 6px;
+            height: 11px;
+            right: -10px;
+            position: absolute;
+        }
+    }
+}

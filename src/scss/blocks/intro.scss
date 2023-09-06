@@ -1,0 +1,19 @@
+.intro {
+    &__wrapper {
+        margin-bottom: 80px;
+    }
+    &__group {
+        display: flex;
+        column-gap: 20px;
+        margin-bottom: 32px;
+    }
+    &__title {
+        max-width: 580px;
+        font-size: 60px;
+        line-height: 72px;
+    }
+    &__text {
+        max-width: 379px;
+        padding-top: 26px;
+    }
+}
