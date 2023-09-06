@@ -1,12 +1,14 @@
 {
   "name": "pioneer",
   "version": "1.0.0",
+  "homepage": "https://github.com/NikiforovRoman/Pioneer.git",
   "description": "Проект для тренировки сборки Gulp и препроцессоров",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp build && gh-pages -d build"
   },
   "author": "Roman",
   "license": "ISC",
